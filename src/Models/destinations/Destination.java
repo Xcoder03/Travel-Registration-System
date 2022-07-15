@@ -1,6 +1,6 @@
-package bus.destination;
+package Models.destinations;
 
-import bus.SignUp;
+import Models.SignUp;
 
 public class Destination {
     private int price;
@@ -22,7 +22,10 @@ public class Destination {
         return ticket;
     }
 
-    public void destination(SignUp sp){
+    public void tenseaterdestination(SignUp sp){
+
+    }
+    public void fifthenseaterdestination(SignUp sp){
 
     }
 }

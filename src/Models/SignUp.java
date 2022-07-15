@@ -1,4 +1,4 @@
-package bus;
+package Models;
 
 public class SignUp {
     private String firstname;

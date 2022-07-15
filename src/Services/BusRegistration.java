@@ -1,4 +1,6 @@
-package bus;
+package Services;
+
+import Models.SignUp;
 
 public interface BusRegistration {
     public abstract void signUp(SignUp signup);

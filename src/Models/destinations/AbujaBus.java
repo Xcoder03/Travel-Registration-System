@@ -1,14 +1,13 @@
-package bus.destination;
+package Models.destinations;
 
-import bus.SignUp;
+import Models.SignUp;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Random;
 
 public class AbujaBus extends Destination{
-   PriorityQueue<SignUp>  abj = new PriorityQueue<>();
+   PriorityQueue<SignUp> abj10 = new PriorityQueue<>();
+    PriorityQueue<SignUp> abj15 = new PriorityQueue<>();
 
     @Override
     public void setPrice(int price) {
@@ -36,7 +35,12 @@ public class AbujaBus extends Destination{
     }
 
     @Override
-    public void destination(SignUp sp) {
-       abj.add(sp);
+    public void tenseaterdestination(SignUp sp) {
+       abj10.add(sp);
+    }
+
+    @Override
+    public void fifthenseaterdestination(SignUp sp) {
+        abj15.add(sp);
     }
 }

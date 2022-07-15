@@ -1,11 +1,12 @@
-package bus;
+package Models;
 
-import java.sql.SQLOutput;
+import Services.BusRegistration;
+
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class DashBoard implements  BusRegistration {
+public class DashBoard implements BusRegistration {
      static  ArrayList<SignUp>  registeredCustomers = new ArrayList<>();
     static PriorityQueue<SignUp> customers = new PriorityQueue<>();
     @Override

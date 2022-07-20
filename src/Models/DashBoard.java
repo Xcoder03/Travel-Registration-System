@@ -36,6 +36,12 @@ public class DashBoard implements BusRegistration {
 
     @Override
     public void busBooking() {
+        System.out.println("Welcome to Mikes Transport Limited bus booking.  ");
+        System.out.println("/////////////////////");
+        System.out.println("Enter name ");
+        System.out.println("Enter destination");
+        System.out.println("Enter number of people");// this is for each person that your travelling with in the bus
+        // then their name will be entered and the system will have to check to if they exists if they dont they will have register them
 
     }
     public  static void addCustomers(SignUp sup){
